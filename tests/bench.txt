@@ -1,0 +1,254 @@
+goos: darwin
+goarch: arm64
+pkg: loadbalancer-go/tests
+cpu: Apple M3 Pro
+BenchmarkL4LoadBalancerRoundRobin-11          	      72	  14453899 ns/op
+--- BENCH: BenchmarkL4LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 3.30
+    performance_test.go:162: 95th percentile latency: 303.02575ms
+    performance_test.go:155: TPS: 4.99
+    performance_test.go:162: 95th percentile latency: 247.354958ms
+    performance_test.go:155: TPS: 4.94
+    performance_test.go:162: 95th percentile latency: 312.584792ms
+    performance_test.go:155: TPS: 4.69
+    performance_test.go:162: 95th percentile latency: 292.889541ms
+    performance_test.go:155: TPS: 4.77
+    performance_test.go:162: 95th percentile latency: 297.330125ms
+	... [output truncated]
+BenchmarkL4LoadBalancerRoundRobin-11          	      87	  13800390 ns/op
+--- BENCH: BenchmarkL4LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 3.55
+    performance_test.go:162: 95th percentile latency: 281.426667ms
+    performance_test.go:155: TPS: 6.34
+    performance_test.go:162: 95th percentile latency: 248.772125ms
+    performance_test.go:155: TPS: 5.37
+    performance_test.go:162: 95th percentile latency: 292.335625ms
+    performance_test.go:155: TPS: 5.04
+    performance_test.go:162: 95th percentile latency: 303.863375ms
+    performance_test.go:155: TPS: 4.87
+    performance_test.go:162: 95th percentile latency: 295.235667ms
+	... [output truncated]
+BenchmarkL4LoadBalancerRoundRobin-11          	      86	  13597138 ns/op
+--- BENCH: BenchmarkL4LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 3.73
+    performance_test.go:162: 95th percentile latency: 268.37375ms
+    performance_test.go:155: TPS: 5.60
+    performance_test.go:162: 95th percentile latency: 235.455584ms
+    performance_test.go:155: TPS: 4.59
+    performance_test.go:162: 95th percentile latency: 298.870583ms
+    performance_test.go:155: TPS: 4.89
+    performance_test.go:162: 95th percentile latency: 292.444958ms
+    performance_test.go:155: TPS: 5.22
+    performance_test.go:162: 95th percentile latency: 295.122917ms
+	... [output truncated]
+BenchmarkL4LoadBalancerRoundRobin-11          	      85	  13746529 ns/op
+--- BENCH: BenchmarkL4LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 3.66
+    performance_test.go:162: 95th percentile latency: 273.457416ms
+    performance_test.go:155: TPS: 4.20
+    performance_test.go:162: 95th percentile latency: 261.433542ms
+    performance_test.go:155: TPS: 4.63
+    performance_test.go:162: 95th percentile latency: 296.6615ms
+    performance_test.go:155: TPS: 4.86
+    performance_test.go:162: 95th percentile latency: 293.658209ms
+    performance_test.go:155: TPS: 5.19
+    performance_test.go:162: 95th percentile latency: 293.66525ms
+	... [output truncated]
+BenchmarkL4LoadBalancerRoundRobin-11          	      75	  13821838 ns/op
+--- BENCH: BenchmarkL4LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 3.79
+    performance_test.go:162: 95th percentile latency: 263.709541ms
+    performance_test.go:155: TPS: 6.00
+    performance_test.go:162: 95th percentile latency: 208.93975ms
+    performance_test.go:155: TPS: 5.34
+    performance_test.go:162: 95th percentile latency: 300.310917ms
+    performance_test.go:155: TPS: 5.20
+    performance_test.go:162: 95th percentile latency: 274.6795ms
+    performance_test.go:155: TPS: 4.90
+    performance_test.go:162: 95th percentile latency: 295.176084ms
+	... [output truncated]
+BenchmarkL4LoadBalancerLeastConnections-11    	      69	  14610833 ns/op
+--- BENCH: BenchmarkL4LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 3.76
+    performance_test.go:162: 95th percentile latency: 265.84375ms
+    performance_test.go:155: TPS: 5.00
+    performance_test.go:162: 95th percentile latency: 236.96025ms
+    performance_test.go:155: TPS: 5.74
+    performance_test.go:162: 95th percentile latency: 240.02525ms
+    performance_test.go:155: TPS: 4.76
+    performance_test.go:162: 95th percentile latency: 296.965708ms
+    performance_test.go:155: TPS: 4.88
+    performance_test.go:162: 95th percentile latency: 298.201666ms
+	... [output truncated]
+BenchmarkL4LoadBalancerLeastConnections-11    	      80	  13780067 ns/op
+--- BENCH: BenchmarkL4LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 4.29
+    performance_test.go:162: 95th percentile latency: 232.979417ms
+    performance_test.go:155: TPS: 5.44
+    performance_test.go:162: 95th percentile latency: 243.810041ms
+    performance_test.go:155: TPS: 5.32
+    performance_test.go:162: 95th percentile latency: 275.83025ms
+    performance_test.go:155: TPS: 5.10
+    performance_test.go:162: 95th percentile latency: 280.633292ms
+    performance_test.go:155: TPS: 4.71
+    performance_test.go:162: 95th percentile latency: 300.590458ms
+	... [output truncated]
+BenchmarkL4LoadBalancerLeastConnections-11    	      70	  14712469 ns/op
+--- BENCH: BenchmarkL4LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 3.31
+    performance_test.go:162: 95th percentile latency: 302.231917ms
+    performance_test.go:155: TPS: 3.81
+    performance_test.go:162: 95th percentile latency: 284.054292ms
+    performance_test.go:155: TPS: 5.17
+    performance_test.go:162: 95th percentile latency: 294.142459ms
+    performance_test.go:155: TPS: 5.03
+    performance_test.go:162: 95th percentile latency: 301.064709ms
+    performance_test.go:155: TPS: 4.87
+    performance_test.go:162: 95th percentile latency: 279.767625ms
+	... [output truncated]
+BenchmarkL4LoadBalancerLeastConnections-11    	      84	  14048005 ns/op
+--- BENCH: BenchmarkL4LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 4.82
+    performance_test.go:162: 95th percentile latency: 207.456084ms
+    performance_test.go:155: TPS: 5.78
+    performance_test.go:162: 95th percentile latency: 274.135084ms
+    performance_test.go:155: TPS: 5.26
+    performance_test.go:162: 95th percentile latency: 295.732542ms
+    performance_test.go:155: TPS: 4.79
+    performance_test.go:162: 95th percentile latency: 292.287625ms
+    performance_test.go:155: TPS: 4.99
+    performance_test.go:162: 95th percentile latency: 290.823875ms
+	... [output truncated]
+BenchmarkL4LoadBalancerLeastConnections-11    	      81	  14204341 ns/op
+--- BENCH: BenchmarkL4LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 3.50
+    performance_test.go:162: 95th percentile latency: 285.461459ms
+    performance_test.go:155: TPS: 5.65
+    performance_test.go:162: 95th percentile latency: 261.175125ms
+    performance_test.go:155: TPS: 5.02
+    performance_test.go:162: 95th percentile latency: 296.584541ms
+    performance_test.go:155: TPS: 4.78
+    performance_test.go:162: 95th percentile latency: 282.301791ms
+    performance_test.go:155: TPS: 4.97
+    performance_test.go:162: 95th percentile latency: 279.928125ms
+	... [output truncated]
+BenchmarkL7LoadBalancerRoundRobin-11          	      28	  39269775 ns/op
+--- BENCH: BenchmarkL7LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 8.22
+    performance_test.go:162: 95th percentile latency: 121.671958ms
+    performance_test.go:155: TPS: 3.82
+    performance_test.go:162: 95th percentile latency: 303.311958ms
+    performance_test.go:155: TPS: 5.73
+    performance_test.go:162: 95th percentile latency: 258.330125ms
+    performance_test.go:155: TPS: 4.80
+    performance_test.go:162: 95th percentile latency: 299.198791ms
+BenchmarkL7LoadBalancerRoundRobin-11          	      33	  37955992 ns/op
+--- BENCH: BenchmarkL7LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 7.52
+    performance_test.go:162: 95th percentile latency: 132.918334ms
+    performance_test.go:155: TPS: 4.65
+    performance_test.go:162: 95th percentile latency: 301.820875ms
+    performance_test.go:155: TPS: 5.59
+    performance_test.go:162: 95th percentile latency: 299.132ms
+    performance_test.go:155: TPS: 5.10
+    performance_test.go:162: 95th percentile latency: 299.402042ms
+    performance_test.go:155: TPS: 4.56
+    performance_test.go:162: 95th percentile latency: 300.089584ms
+	... [output truncated]
+BenchmarkL7LoadBalancerRoundRobin-11          	      26	  40803176 ns/op
+--- BENCH: BenchmarkL7LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 3.89
+    performance_test.go:162: 95th percentile latency: 257.379709ms
+    performance_test.go:155: TPS: 4.86
+    performance_test.go:162: 95th percentile latency: 256.202375ms
+    performance_test.go:155: TPS: 4.51
+    performance_test.go:162: 95th percentile latency: 297.555875ms
+    performance_test.go:155: TPS: 4.77
+    performance_test.go:162: 95th percentile latency: 286.024959ms
+    performance_test.go:155: TPS: 4.75
+    performance_test.go:162: 95th percentile latency: 291.202458ms
+	... [output truncated]
+BenchmarkL7LoadBalancerRoundRobin-11          	      28	  38823131 ns/op
+--- BENCH: BenchmarkL7LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 3.73
+    performance_test.go:162: 95th percentile latency: 268.231167ms
+    performance_test.go:155: TPS: 3.76
+    performance_test.go:162: 95th percentile latency: 298.230958ms
+    performance_test.go:155: TPS: 4.83
+    performance_test.go:162: 95th percentile latency: 299.605292ms
+    performance_test.go:155: TPS: 4.85
+    performance_test.go:162: 95th percentile latency: 301.157583ms
+    performance_test.go:155: TPS: 4.72
+    performance_test.go:162: 95th percentile latency: 291.871667ms
+	... [output truncated]
+BenchmarkL7LoadBalancerRoundRobin-11          	      31	  37591601 ns/op
+--- BENCH: BenchmarkL7LoadBalancerRoundRobin-11
+    performance_test.go:155: TPS: 4.19
+    performance_test.go:162: 95th percentile latency: 238.83975ms
+    performance_test.go:155: TPS: 3.90
+    performance_test.go:162: 95th percentile latency: 299.418625ms
+    performance_test.go:155: TPS: 4.88
+    performance_test.go:162: 95th percentile latency: 278.662833ms
+    performance_test.go:155: TPS: 4.63
+    performance_test.go:162: 95th percentile latency: 296.560375ms
+    performance_test.go:155: TPS: 4.79
+    performance_test.go:162: 95th percentile latency: 285.653417ms
+	... [output truncated]
+BenchmarkL7LoadBalancerLeastConnections-11    	      28	  39014580 ns/op
+--- BENCH: BenchmarkL7LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 4.12
+    performance_test.go:162: 95th percentile latency: 243.001875ms
+    performance_test.go:155: TPS: 4.74
+    performance_test.go:162: 95th percentile latency: 294.304ms
+    performance_test.go:155: TPS: 4.73
+    performance_test.go:162: 95th percentile latency: 297.681292ms
+    performance_test.go:155: TPS: 4.30
+    performance_test.go:162: 95th percentile latency: 295.634708ms
+    performance_test.go:155: TPS: 4.83
+    performance_test.go:162: 95th percentile latency: 297.293375ms
+	... [output truncated]
+BenchmarkL7LoadBalancerLeastConnections-11    	      28	  37894028 ns/op
+--- BENCH: BenchmarkL7LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 4.25
+    performance_test.go:162: 95th percentile latency: 235.488791ms
+    performance_test.go:155: TPS: 4.80
+    performance_test.go:162: 95th percentile latency: 266.925875ms
+    performance_test.go:155: TPS: 4.76
+    performance_test.go:162: 95th percentile latency: 300.71325ms
+    performance_test.go:155: TPS: 4.62
+    performance_test.go:162: 95th percentile latency: 286.970625ms
+    performance_test.go:155: TPS: 5.06
+    performance_test.go:162: 95th percentile latency: 295.801292ms
+	... [output truncated]
+BenchmarkL7LoadBalancerLeastConnections-11    	      27	  37101617 ns/op
+--- BENCH: BenchmarkL7LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 5.37
+    performance_test.go:162: 95th percentile latency: 186.179709ms
+    performance_test.go:155: TPS: 4.88
+    performance_test.go:162: 95th percentile latency: 269.070875ms
+    performance_test.go:155: TPS: 4.88
+    performance_test.go:162: 95th percentile latency: 301.905416ms
+    performance_test.go:155: TPS: 5.72
+    performance_test.go:162: 95th percentile latency: 286.527916ms
+BenchmarkL7LoadBalancerLeastConnections-11    	      28	  38468710 ns/op
+--- BENCH: BenchmarkL7LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 7.14
+    performance_test.go:162: 95th percentile latency: 140.14875ms
+    performance_test.go:155: TPS: 4.08
+    performance_test.go:162: 95th percentile latency: 300.408375ms
+    performance_test.go:155: TPS: 4.54
+    performance_test.go:162: 95th percentile latency: 297.5485ms
+    performance_test.go:155: TPS: 4.67
+    performance_test.go:162: 95th percentile latency: 285.755791ms
+BenchmarkL7LoadBalancerLeastConnections-11    	      31	  38085583 ns/op
+--- BENCH: BenchmarkL7LoadBalancerLeastConnections-11
+    performance_test.go:155: TPS: 7.11
+    performance_test.go:162: 95th percentile latency: 140.554708ms
+    performance_test.go:155: TPS: 5.35
+    performance_test.go:162: 95th percentile latency: 263.422209ms
+    performance_test.go:155: TPS: 4.72
+    performance_test.go:162: 95th percentile latency: 303.273709ms
+    performance_test.go:155: TPS: 4.32
+    performance_test.go:162: 95th percentile latency: 286.161042ms
+PASS
+ok  	loadbalancer-go/tests	62.379s
